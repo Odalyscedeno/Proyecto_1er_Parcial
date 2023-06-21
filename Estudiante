@@ -1,3 +1,8 @@
+#Bajaña Acosta Luis Steven
+#Coronel Macias Katherine Jamilet
+#Cedeño Maridueña Odalys Nicole
+#Guerrero Ormeño Carlos Eduardo
+
 from persona import Persona
 
 class Estudiante(Persona):
