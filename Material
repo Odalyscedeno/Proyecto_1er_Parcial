@@ -1,7 +1,11 @@
+#Katherine Coronel
+#Steven Bajaña
+#Odalys Cedeño
+#Carlos Guerrero
 from abc import ABC ,abstractmethod
 
 class Material(ABC):
-    def __init__(self, codigo :str, autor :str, titulo :str, anio :int, editorial :str, disponible :bool, cantidad_disponible :int):
+    def __init__(self, codigo :str, autor :str, titulo :str, año :int, editorial :str, disponible :bool, cantidad_disponible :int):
         self._codigo = codigo
         self._autor = autor
         self._titulo = titulo
@@ -38,10 +42,10 @@ class Material(ABC):
 
     @property
     def año (self):
-        return self._ año
-    @anio.setter
+        return self._año
+    @año.setter
     def año (self, año):
-        self._año = año
+        self._año=año
 
     @property
     def editorial(self):
@@ -72,4 +76,3 @@ class Material(ABC):
 
 if __name__ == '__main__':
     pass
-
