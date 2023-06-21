@@ -2,7 +2,8 @@
 #Coronel Macias Katherine Jamilet
 #Cedeño Maridueña Odalys Nicole
 #Guerrero Ormeño Carlos Eduardo
-from persona import Persona
+from Persona import Persona
+
 class Docente(Persona):
     contador_docente = 0
     def __init__(self ,cedula :str ,nombre :str ,apellido :str ,email :str ,telefono :str ,direccion :str
